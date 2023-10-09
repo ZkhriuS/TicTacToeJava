@@ -17,12 +17,12 @@ public class GameWindow extends JFrame {
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         startWindow = new StartWindow(this);
-        constructGamePanel();
+        //constructGamePanel();
     }
     private void initComponents(){
         gamePanel = new GamePanel(this);
     }
-    private void constructGamePanel(){
+    public void constructGamePanel(){
         initComponents();
         add(gamePanel);
 

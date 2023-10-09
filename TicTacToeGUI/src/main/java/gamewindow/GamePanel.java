@@ -28,13 +28,6 @@ public class GamePanel extends JPanel {
         });
     }
 
-    /*@Override
-    public void update(Graphics g) {
-        super.update(g);
-        if(repaintPanel)
-            render(g);
-    }*/
-
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
